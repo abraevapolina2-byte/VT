@@ -7,7 +7,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -21,7 +20,7 @@ ol {
 	list-style: decimal;
 }
 ul {
-	padding-left: 1.4em
+	padding-left: 1.4em;
 	list-style: square;
 }
 table {
@@ -29,15 +28,3 @@ table {
 	border-spacing: 0;
 } 
 /* конец кода сброса стилей браузера */
-
-/* простой двухколончный макет  */
-.main {
-	float: left;
-	width: 70%;
-}
-.sidebar {
-	margin-left: 75%;
-	padding: 15px;
-	background: #E9F5FE;
-}
-
